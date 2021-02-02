@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-image: url(image.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.messageWindow{
+    width: 700px;
+    height: 600px;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 50px #000 ;
+}
+
+.sendMessage{
+    width: 100px;
+    height: 30px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 50px #000 ;
+    position: relative;
+    left: 5px;
+    top: 450px;
+    
+}
+#sendMessage{
+    width: 450px;
+    height: 50px;
+    
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px whitesmoke;
+    box-shadow: 1px 1px 5px white ;
+    border-radius: 50px;
+    background-color: #5c8a8a;
+}
+
+.Reply{
+    box-shadow: 1px 1px 5px cyan ;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 350px;
+    height: 75px;
+    border-radius: 75px;
+}
+
+.Msg{
+    box-shadow: 1px 1px 5px cyan ;
+    position: relative;
+    top: 150px;
+    left: 290px;
+    width: 350px;
+    height: 75px;
+    border-radius: 75px;
+}
+
+h3{
+    padding: 20px 50px;
+    color: white;
+}
+
+#Enter{
+    position: relative;
+    top: 250px;
+    left: 500px;
+    border-radius: 75px;
+    width: 100px;
+    height: 40px;
+    color: black;
+    background-color: royalblue;
+    box-shadow: cyan;
+}
